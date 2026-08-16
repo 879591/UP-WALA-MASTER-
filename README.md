@@ -1,30 +1,17 @@
-# UP Wala Master — Premium Website
-
-यह एक responsive, premium-style education website starter है जो user-provided UP Wala Master images और public channel information पर आधारित है।
+# UP Wala Master Premium v2
 
 ## Included
-- Premium responsive landing page
-- Class 10 & Class 12 sections
-- Vimal Sir founder/educator section
-- YouTube, Telegram, Instagram, WhatsApp quick links
-- Student Login modal
-- Firebase Phone OTP integration scaffold
-- Mobile-first navigation
-- User-provided images in `/assets`
-
-## Real Phone OTP चालू करने के लिए
-1. Firebase Console में नया project बनाइए।
-2. Authentication → Sign-in method → Phone enable कीजिए।
-3. Web App register कीजिए।
-4. Firebase से मिले `firebaseConfig` को `app.js` में `PASTE_...` वाली values की जगह डालिए।
-5. Authentication → Settings → Authorized domains में अपनी Vercel/custom domain add कीजिए।
-6. Website deploy कीजिए। Firebase reCAPTCHA + SMS OTP flow काम करेगा।
-
-## Deploy on Vercel
-इस folder को GitHub repository में upload करके Vercel में Import करें, या Vercel CLI से deploy करें।
-कोई build command जरूरी नहीं है; यह static site है।
+- Premium responsive HTML/CSS website
+- Vimal Sir photo from supplied image
+- Embedded YouTube video using the supplied `u3gV2daRXfw` link
+- Class 10 and Class 12 YouTube buttons
+- Telegram-only Notes section
+- WhatsApp contact
+- No fake OTP, no unnecessary login, no unnecessary live-class system
+- All supplied images stored locally in `assets/`
 
 ## Important
-- Website में दिए गए phone/social links वही हैं जो supplied screenshots/public channel information से उपलब्ध हुए।
-- Paid courses, tests, notes download, student dashboard और admin panel के लिए backend/database अलग से जोड़ना होगा।
-- OTP UI real Firebase credentials के बिना केवल setup-ready है; fake OTP नहीं बनाया गया है।
+The YouTube embed is an official YouTube iframe. If the video owner has disabled embedding, YouTube may show an embed restriction; the "YouTube पर देखें" button still opens the supplied video.
+
+## Deploy
+Upload the complete folder to GitHub/Vercel. `index.html` is the entry file; no build command is required.
