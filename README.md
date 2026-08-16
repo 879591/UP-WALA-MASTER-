@@ -1,17 +1,25 @@
-# UP Wala Master Premium v2
+UP Wala Master — Final Professional Package
 
-## Included
-- Premium responsive HTML/CSS website
-- Vimal Sir photo from supplied image
-- Embedded YouTube video using the supplied `u3gV2daRXfw` link
-- Class 10 and Class 12 YouTube buttons
-- Telegram-only Notes section
-- WhatsApp contact
-- No fake OTP, no unnecessary login, no unnecessary live-class system
-- All supplied images stored locally in `assets/`
+Main:
+- index.html
+- styles.css
+- script.js
 
-## Important
-The YouTube embed is an official YouTube iframe. If the video owner has disabled embedding, YouTube may show an embed restriction; the "YouTube पर देखें" button still opens the supplied video.
+Assets:
+- founder.jpg = Vimal Sir photo
+- school-session.jpg = classroom/session photo
+No Class 10/12 channel screenshot is used as the founder image.
 
-## Deploy
-Upload the complete folder to GitHub/Vercel. `index.html` is the entry file; no build command is required.
+Selected videos (only 2):
+- https://youtu.be/PgQfvTJFsCs
+- https://youtu.be/6LCR6AE8AhE
+
+Official YouTube:
+https://www.youtube.com/@UPWalaMasterClass10HindiMedium
+
+Optional:
+- firebase-config.example.js for real Firebase Phone Auth configuration
+- tools/content_api.py for local Python preview
+- tools/ContentServer.java for Java utility
+
+Python/Java are optional; the frontend runs with index.html + styles.css + script.js.
